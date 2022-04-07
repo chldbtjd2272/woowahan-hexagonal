@@ -1,0 +1,46 @@
+.gradle
+build
+!gradle/wrapper/gradle-wrapper.jar
+out
+logs
+jenkins.sh
+loop-job*.groovy
+*.log
+
+shell-scripts/**/*.csv
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# logs
+logs/
+
+### build static ###
+**/resources/static/*
+**/resources/templates/*
+
+### direnv: https://direnv.net/
+.envrc
+
+### Mac File index
+.DS_Store
+
